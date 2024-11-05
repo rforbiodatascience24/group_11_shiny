@@ -14,8 +14,8 @@ ui <- page_fluid(
     col_widths = 12,
     card(
       titlePanel("About"),
-      helpText("Generate a random DNA sequnce, with customizable length and base probabilities.
-               Transcripe DNA into RNA and translate RNA into peptide")
+      helpText("Generate a random DNA sequence, with customizable length and base probabilities.
+               Transcribe DNA into RNA and translate RNA into peptide")
     )),
   layout_columns(
     col_widths = 12,
