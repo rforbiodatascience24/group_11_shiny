@@ -14,3 +14,4 @@ server <- function(input, output) {
   output$rna <- renderText({transcribe_dna(input$dna_seq)})
   output$peptide <- renderText({translate_rna(input$rna_seq)})
 }
+
